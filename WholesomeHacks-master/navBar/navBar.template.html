@@ -1,0 +1,26 @@
+<head>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="navBar/navBar.css" />
+</head>
+
+<div ng-cloak>
+    <md-content>
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab label="Financial watcher">
+                <md-content class="md-padding">
+                    <financial-tracker></financial-tracker>
+                </md-content>
+            </md-tab>
+            <md-tab label="Personal Finances">
+                <md-content class="md-padding">
+                    <h1 class="md-display-2">Personal Finances</h1>
+                </md-content>
+            </md-tab>
+            <md-tab label="three">
+                <md-content class="md-padding">
+                    <h1 class="md-display-2">Tab Three</h1>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+    </md-content>
+</div>
